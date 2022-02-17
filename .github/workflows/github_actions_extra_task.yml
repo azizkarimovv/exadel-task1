@@ -35,4 +35,5 @@ jobs:
         run: echo "DAY - $DAY_OF_THE_MONTH \nMONTH - $MONTH \nYEAR - $YEAR"
       - name: prints favourite day of the week variable
         run: echo "My favorite day of week is $FAVORITE_DAY_OF_WEEK"
-      
+      - name: the reason why we get nothing when we print out the FAVORITE_DAY_OF_WEEK variable
+        run: echo "the reason why we get nothing when we print out the FAVORITE_DAY_OF_WEEK variable is because, this is secret varibale, which means it is not visible while execution"      
