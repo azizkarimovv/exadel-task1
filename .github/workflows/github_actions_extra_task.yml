@@ -18,9 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: list directories of the repo
-        run: ls
+        run: ls Task1
       - name: print the content of the `log.txt`
-        run: cat log.txt
+        run: cat ./Task1/log.txt
       - name: print DEPLOY_VER variable
         run: echo "HELLO from $DEPLOY_VER commit"
   second_job:
